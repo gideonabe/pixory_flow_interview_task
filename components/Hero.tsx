@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
         variants={staggerContainer}
         initial="hidden"
         animate="visible"
-        className='relative z-10 flex flex-col justify-between min-h-full w-full max-w-360 mx-auto px-4 md:px-8 lg:px-10 py-6 md:py-8'
+        className='relative z-10 flex flex-col justify-between min-h-full w-full max-w-360 mx-auto px-4 md:px-8 lg:px-10 py-12 md:py-8'
       >
 
         {/* TOP FLOATING ELEMENTS */}
