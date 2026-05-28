@@ -63,7 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${inter.variable} ${robotoMono.variable} antialiased min-h-screen`}
+        className={`${inter.variable} ${robotoMono.variable} font-sans antialiased min-h-screen`}
       >
         <Navbar />
         <main>{children}</main>

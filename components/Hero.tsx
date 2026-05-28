@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
         variants={staggerContainer}
         initial="hidden"
         animate="visible"
-        className='relative z-10 flex flex-col justify-between h-full w-full max-w-360 mx-auto px-4 md:px-8 lg:px-10 py-6 md:py-8'
+        className='relative z-10 flex flex-col justify-between min-h-full w-full max-w-360 mx-auto px-4 md:px-8 lg:px-10 md:py-8'
       >
 
         {/* TOP FLOATING ELEMENTS */}
@@ -104,7 +104,7 @@ const Hero: React.FC = () => {
               hidden: { opacity: 0, x: 20 },
               visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }
             }}
-            className='flex items-center gap-1 group cursor-pointer ml-0.5 md:ml-0 pt-4 md:pt-0 hover:translate-x-1'
+            className='flex items-center gap-1 group cursor-pointer ml-0.5 md:ml-0 pt-4 md:pt-0'
           >
             <img src="/play.svg" alt="Play icon" className="w-4.75 h-4.75 ml-1 animate-pulse" />
             <p className='font-mono text-xs md:text-sm tracking-tight md:tracking-[-0.56px] text-white/90 group-hover:text-white transition-colors duration-300'>
