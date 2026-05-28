@@ -1,18 +1,25 @@
 # Pixory Flow
 
-A cutting-edge Web3 infrastructure platform for creating, trading, and managing digital assets with full transparency and security.
+Modern responsive Web3 landing page built with Next.js and Tailwind CSS.
 
-![Project Screenshot](./og-image.webp)
+![Project Screenshot](public/og-image.webp)
 
-## What is Pixory Flow?
-Pixory Flow is a decentralized platform that empowers developers and users to build, scale, and innovate with blockchain technology. Our infrastructure enables secure, transparent, and permissionless digital experiences for the future of the internet.
+## Tech Stack
 
-## Key Features
-- **Decentralized Infrastructure**: Build on a robust, scalable Web3 foundation
-- **Digital Asset Management**: Create, trade, and manage NFTs and other digital assets
-- **Wallet Integration**: Seamless connectivity with leading cryptocurrency wallets
-- **Community Ecosystem**: Engage with a growing community through dedicated channels
-- **Modern UI/UX**: Sleek, responsive interface with smooth animations powered by Framer Motion
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+## Features
+
+- Responsive modern UI
+- Animated hero section
+- GIF/video background
+- Mobile navigation
+- Glassmorphism effects
+- Interactive CTA buttons
+
 
 ## Getting Started
 
