@@ -30,7 +30,7 @@ const staggerContainer: Variants = {
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-[calc(100dvh-80px)] w-full overflow-hidden bg-primary">
+    <section className="relative h-[calc(100svh-80px)] w-full overflow-hidden bg-primary">
       
       {/* BACKGROUND - Subtle scale-in effect */}
       <motion.div
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           alt="hero background"
           fill
           priority
-          className="object-cover opacity-90"
+          className="object-cover object-center opacity-90 will-change-transform"
         />
         <div className="absolute inset-0 bg-black/40" />
       </motion.div>
